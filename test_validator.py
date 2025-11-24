@@ -12,5 +12,5 @@ def test_password_sedang():
 
 def test_password_kuat():
     # Panjang cukup DAN ada angka
-    assert cek_password("kopi123") == "Kuat"
+    assert cek_password("kopi1234") == "Kuat"
     assert cek_password("p4ssw0rd") == "Kuat"
